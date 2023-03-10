@@ -10,8 +10,6 @@ This policy applies to the CMS project teams that engage in the development of c
 
 The CMS Office of Acquisition and Grants Management (OAGM) has an established IT procurement procedure that sets the [rights to the custom-developed code](https://www.acquisition.gov/far/html/Subpart%2027_4.html), including at a minimum, rights to Government-wide reuse and rights to modify the code.  CMS contractors who develop software for CMS business use are covered by the procurement clauses that provide the Copyright of the CMS-funded custom designed software to CMS and prohibits the contractors from reselling it to other Federal Government agencies. Such custom produced software for CMS can be made freely available to other Government agencies. Due to a variety of IT and non-IT contracts that CMS may enter into, it is the project team’s responsibility to perform all due diligence for their specific contract in consultation with the OAGM. The project team shall review Section 21: “Logistic Considerations”, and section 5.27: “Contractor Data Requirements” of OAGM Acquisition Plan Guide before releasing the code as OSS. CMS requires all development contractors to maintain the source code and documentation in a CMS-approved and accessible version control system. CMS has created the [eXpedited LifeCycle (XLC) process framework](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/XLC/index.html) for the development teams to identify, track and maintain version control of all software artifacts. The XLC artifacts are deliverables to CMS that provides a set of documentation and source code that might be considered for Government-wide reuse of the custom software.
 
- 
-
 ## CMS OSS Pilot Program
 
 As outlined in the requirements of the [Federal Source Code Policy](https://code.gov/#/policy-guide/policy/introduction), CMS has already identified the [Quality Payment Program (QPP)](https://qpp.cms.gov/) as CMS’ OSS pilot program. The QPP project team has already released [a tool for file conversion](https://github.com/CMSgov/qpp-conversion-tool) as OSS during the calendar year 2017. The QPP conversion tool allows XML to JSON file conversion for consumption by the Submissions API.  The project team believes that it will let any provider or entity that creates QPP files have access to the tool outside of the context of QPP submissions and that can be extended to other file formats.
@@ -28,11 +26,9 @@ For every iteration of the code release, the project team must ensure that the s
 
 CMS project teams should follow or adopt a decentralized governance model to ensure the success of the OSS as the software matures in the Open Source community. The governance model should define the team constituents, their decision-making authority and their roles to support the project in the open source community. For sustaining the project, the team, at a minimum, should define and staff the [roles](https://www.apache.org/foundation/how-it-works.html#roles) for active user engagement, product roadmap development, and accepting new contributions via pull-requests. These resources shall be staffed in addition to existing project team members. The project team is expected to take on the additional responsibility of encouraging meaningful engagement in the project by identifying and promoting active contributors to committer status based on the quality and quantity of code contributions and involvement in day-to-day discussions, as is the case in a [meritocracy based system](https://www.apache.org/foundation/how-it-works.html#meritocracy).
 
- 
-
 ## CMS' Public OSS Repository
 
-CMS project teams shall utilize the official Public CMS GitHub organization account to make their source code available to the open source community and for government-wide use. The project teams shall use a consistent naming convention and a prefix for their code repositories that allows for easy identification on GitHub. The project teams shall also provide updates to the CMS’s official enterprise code inventory, update the CMS public website - the OSS landing page and, update the CMS enterprise code repository at Code.gov to encourage discovery and dissemination of the software. 
+CMS project teams shall utilize the official Public CMS GitHub organization account to make their source code available to the open source community and for government-wide use. The project teams shall use a consistent naming convention and a prefix for their code repositories that allows for easy identification on GitHub. The project teams shall also provide updates to the CMS’s official enterprise code inventory, update the CMS public website - the OSS landing page and, update the CMS enterprise code repository at Code.gov to encourage discovery and dissemination of the software.
 
 ## License
 
@@ -53,4 +49,3 @@ CMS would like to thank General Services Administration (GSA)’s 18F team, the 
 ## Future changes
 
 This CMS policy is a living document, and any changes to this policy in the future would be handled via issues and pull requests in the CMS GitHub repository.
-
